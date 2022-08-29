@@ -21,6 +21,7 @@ elif rahaa_taskussa >= kahvin_hinta and maistuuko_kahvi == 'Joo':
     rahaa_taskussa = rahaa_taskussa - kahvin_hinta
 elif rahaa_taskussa >= teen_hinta:
     print('Ota tee')
+    rahaa_taskussa = rahaa_taskussa - teen_hinta
 else:
     print('Lähde kotiin')
 
